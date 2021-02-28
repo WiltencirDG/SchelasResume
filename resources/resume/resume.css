@@ -1,0 +1,156 @@
+@page {
+    size: A4;
+    /* margin: 30mm 45mm 30mm 45mm; */
+}
+
+html, body {
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+}
+
+.normalColor{
+    color:#3E6B89
+}
+.highColor{
+    color:#2EB2FF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.row {
+   display: flex;
+}
+  
+.column {
+   flex: 50%;
+}
+h3 {
+    letter-spacing: .2em;
+    font-size: 16pt;
+}
+#experience > div > p.experience_company:before { content: '\2022'; margin-left: -20px; margin-right: 10px; margin-top: -3px; font-size: 14pt;} 
+#education > div > p.education_local:before { content: '\2022'; margin-left: -20px; margin-right: 10px; margin-top: -3px; font-size: 14pt;} 
+#courses > div > p.courses_local:before { content: '\2022'; margin-left: -20px; margin-right: 10px; margin-top: -3px; font-size: 14pt;} 
+#languages > div > p.languages_title:before { content: '\2022'; margin-left: -20px; margin-right: 10px; margin-top: -3px; font-size: 14pt;} 
+
+#contact_github:before { content: url(../img/github.png); margin-left: -25px; margin-right: 10px; margin-top: -3px;} 
+#contact_mobile:before { content: url(../img/mobile.png); margin-left: -25px; margin-right: 10px; margin-top: -3px;} 
+#contact_email:before { content: url(../img/email.png); margin-left: -25px; margin-right: 10px; margin-top: -3px;} 
+#contact_linkedin:before { content: url(../img/linkedin.png); margin-left: -25px; margin-right: 10px; margin-top: -3px;} 
+#contact_website:before { content: url(../img/website.png); margin-left: -25px; margin-right: 10px; margin-top: -3px;} 
+
+#basic{
+    text-align:center;
+}
+#basic #basic_name{
+    font-size: 32pt;
+    margin: 0;
+    padding-bottom: 15px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+#basic #basic_title{
+    margin: 0;
+    font-size: 16pt;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+#courses > div{
+    padding-bottom: 15px;
+}
+
+#contact > p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+#courses > div > p{
+    padding: 0;
+    margin:0 0;
+    margin-left: 20px;
+}
+
+.courses_local{
+    font-weight: bold;
+}
+
+.courses_title{
+    padding: 0;
+    float: left;
+    font-weight: lighter;
+}
+
+#experience > div{
+    padding-bottom: 15px;
+}
+
+#experience > div > p{
+    padding: 0;
+    margin:0 0;
+    margin-left: 20px;
+}
+
+.experience_company{
+    font-weight: bold;
+}
+.experience_description{
+    font-weight: lighter;
+}
+.experience_startDate{
+    float:left;
+    font-size: 10pt;
+}
+.experience_endDate{
+    font-size: 10pt;
+}
+
+
+#education > div{
+    padding-bottom: 15px;
+}
+
+#education > div > p{
+    padding: 0;
+    margin:0 0;
+    margin-left: 20px;
+}
+.education_local{
+    font-weight: bold;
+}
+.education_startDate{
+    float:left;
+    font-size: 10pt;
+}
+.education_endDate{
+    font-size: 10pt;
+}
+
+#languages > div{
+    padding-bottom: 15px;
+}
+
+#languages > div > p{
+    padding: 0;
+    margin:0 0;
+    margin-left: 20px;
+}
+.languages_title{
+    font-weight: bold;
+}
+.languages_description{
+    font-weight: lighter;
+}
+
+#skills > p{
+    padding: 0;
+    margin:0 0;
+    padding-bottom: 15px;
+}
